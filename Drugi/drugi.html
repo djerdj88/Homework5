@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="drugi.css">
+    <title>Image Slider</title>
+</head>
+<body>
+    <h2>Dota 2 Image Slider</h2>
+        
+        <div id = "slider">
+            <div id = "box">
+          <img id="img-1" class="mySlides" src="Dota2.jpg">
+            </div>
+
+            <h2 id="name">Dota 2</h2>
+
+            <button class="prev fa fa-arrow-circle-left" onclick="prevImg()"></button>
+            <button class="next fa fa-arrow-circle-right" onclick="nextImg()"></button>
+        </div>
+
+        <div id="simpleModal" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                      <span id="closeBtn"class="closeBtn">&times;</span>
+                  </div>
+                  <div class="modal-body">
+                    <img id="img-12" class="mySlides" src="Dota2.jpg">
+                  </div>
+                  <button id="btn-1" class="prev fa fa-arrow-circle-left" onclick="prevImg()"></button>
+                  <button id="btn-2" class="next fa fa-arrow-circle-right" onclick="nextImg()"></button>
+                </div>
+              </div>
+        
+<script src="drugi.js"></script>
+</body>
+</html>

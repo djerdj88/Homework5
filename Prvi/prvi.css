@@ -1,0 +1,63 @@
+body {
+    width: 50%;
+    border: 20px solid rgb(9, 70, 110);
+    margin: 20px auto;
+}
+
+div {
+    margin: 20px;
+}
+
+h2, h3 {
+    color: #af2d16;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.space{
+    border-left: 10px solid #097bc7;
+    padding-left: 10px;
+}
+
+
+hr {
+	height: 10px;
+	border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    margin: 20px auto;
+    width: 95%;
+}
+
+.date {
+    color: #3498db;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+input {
+    width: 120px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+button {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 590px) {
+    input {
+        width: 50px;
+    }
+    
+    button {
+        margin-top: 10px;
+    }
+}

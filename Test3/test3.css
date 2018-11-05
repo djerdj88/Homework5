@@ -1,0 +1,56 @@
+body {
+    width: 50%;
+    margin: 20px auto;
+} 
+
+table {
+    text-align: center;
+    margin-left: 10px;
+}
+
+form {
+    align-content: center;
+    margin: 20px auto;
+    margin-left: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+input {
+    margin-left: 10px;
+}
+
+select{
+    margin-left: 20px;
+}
+
+#item {
+    text-align: center;
+}
+
+#pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+#pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#pagination{
+    margin-top: 10px;
+    margin-left: 280px;
+    margin-bottom: 30px;
+}
+
+#nf {
+    display: none;
+    margin-left: 10px;
+}
